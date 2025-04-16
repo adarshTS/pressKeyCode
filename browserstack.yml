@@ -1,0 +1,19 @@
+userName: user_name
+accessKey: access_key
+
+projectName: BNY
+buildName: ${android_RQA}
+
+app: bs://07f2b905d6702f61899cd80a6b07388e9e62a408
+platforms:
+  - platformName: android
+    platformVersion: 12.0
+    deviceName: Samsung Galaxy S22 Ultra
+
+source: java:appium-intellij:v1.1.2
+
+debug: true
+networkLogs: true
+consoleLogs: errors
+appiumVersion: "2.0.1"
+

@@ -1,0 +1,232 @@
+00:03:36.383 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.1
+00:03:36.391 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+00:03:36.674 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+00:03:36.675 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+00:03:37.228 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://21f4c4d13fc7bd0c928a9a204341fdda12dcd342]
+00:03:37.228 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+00:03:42.492 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+00:03:43.130 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+00:03:44.415 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:03:56.668 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+00:03:56.671 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+00:04:06.172 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+00:04:06.269 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+00:04:43.750 [main] ERROR c.b.utils.GlobalExceptionHandler - Global SDK Exception - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '18.0.2.1'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [782a4ea988b29dee599490f3b11bd8a91a6b5564, findElement {value=//XCUIElementTypeTextField[contains(@value,'User ID')], using=xpath}]
+Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.bnymellon.activeinvesto..., appium:bundleId: com.bnymellon.activeinvesto..., appium:databaseEnabled: false, appium:deviceName: iPhone 15, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-euw.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008120-000155283C90A01E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {buildIdentifier: #1, hostName: Adarsh*con, localIdentifier: adBrowserstackLocal}, platformName: IOS}
+Session ID: 782a4ea988b29dee599490f3b11bd8a91a6b5564
+00:04:49.226 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/a0094e378ff93203b7f5ac3b19a9e9b1d654878f
+00:04:49.228 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:02:48.409 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.1
+03:02:48.414 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+03:02:48.638 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+03:02:48.639 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+03:02:49.135 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://21f4c4d13fc7bd0c928a9a204341fdda12dcd342]
+03:02:49.135 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+03:02:52.671 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+03:02:53.201 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:02:54.592 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+03:03:05.000 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+03:03:06.024 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+03:03:06.028 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+03:03:09.512 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:03:09.687 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+03:03:40.154 [main] ERROR c.b.utils.GlobalExceptionHandler - Global SDK Exception - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '18.0.2.1'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [a1aba4e281e1c854c6f4dbf5dd49a7bf615a3fec, findElement {using=xpath, value=//XCUIElementTypeTextField[contains(@value,'User ID')]}]
+Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.bnymellon.activeinvesto..., appium:bundleId: com.bnymellon.activeinvesto..., appium:databaseEnabled: false, appium:deviceName: iPhone 15, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-aps.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008120-000204540198A01E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {buildIdentifier: #2, hostName: Adarsh*con, localIdentifier: adBrowserstackLocal}, platformName: IOS}
+Session ID: a1aba4e281e1c854c6f4dbf5dd49a7bf615a3fec
+03:03:50.432 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/b2d748192423173e7df73a7b20751e13e415ea01
+03:03:50.433 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:07:36.178 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.1
+03:07:36.183 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+03:07:36.386 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+03:07:36.387 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+03:07:36.843 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://21f4c4d13fc7bd0c928a9a204341fdda12dcd342]
+03:07:36.843 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+03:07:39.985 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+03:07:40.502 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:07:42.810 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+03:07:42.813 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+03:07:45.804 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:07:45.899 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+03:08:14.288 [main] ERROR c.b.utils.GlobalExceptionHandler - Global SDK Exception - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '18.0.2.1'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [a14f6861d4ff78debad747b2a3586f78d4951961, findElement {using=xpath, value=//XCUIElementTypeTextField[contains(@value,'User ID')]}]
+Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.bnymellon.activeinvesto..., appium:bundleId: com.bnymellon.activeinvesto..., appium:databaseEnabled: false, appium:deviceName: iPhone 15, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-aps.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008120-001C74202192201E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {buildIdentifier: #3, hostName: Adarsh*con}, platformName: IOS}
+Session ID: a14f6861d4ff78debad747b2a3586f78d4951961
+03:08:19.584 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/9b85c92a9f7199bc4f478bd43323a8d78b6846ce
+03:08:19.585 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:48:59.680 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.1
+14:48:59.688 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+14:48:59.900 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:48:59.902 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+14:49:00.414 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://21f4c4d13fc7bd0c928a9a204341fdda12dcd342]
+14:49:00.414 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+14:49:03.828 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+14:49:04.514 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:49:07.058 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:49:07.061 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+14:49:10.763 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:49:10.865 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+14:49:13.636 [main] ERROR c.b.utils.GlobalExceptionHandler - Global SDK Exception - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 401. Message: Invalid username or password 
+Host info: host: 'Adarsh*con', ip: 'fe80:0:0:0:856:8121:5897:f860%en0'
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '18.0.2.1'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: bs://21f4c4d13fc7bd0c928a9a..., appium:automationName: XCuiTest, browserVersion: null, bstack:options: {accessKey: YOUR_ACCESS_KEY, browserVersion: null, browserstackSDK: java-javaagent/1.22.1, buildIdentifier: #4, buildName: iOS_Tests, consoleLogs: errors, debug: true, deviceName: iPhone 15, hostName: Adarsh*con, networkLogs: true, platformVersion: 17, projectName: BNY, source: java:appium-intellij:v1.1.2, userName: YOUR_USERNAME}, platformName: IOS}]}]
+Capabilities {appium:app: bs://21f4c4d13fc7bd0c928a9a..., appium:automationName: XCuiTest, browserVersion: null, bstack:options: {accessKey: YOUR_ACCESS_KEY, browserVersion: null, browserstackSDK: java-javaagent/1.22.1, buildIdentifier: #4, buildName: iOS_Tests, consoleLogs: errors, debug: true, deviceName: iPhone 15, hostName: Adarsh*con, networkLogs: true, platformVersion: 17, projectName: BNY, source: java:appium-intellij:v1.1.2, userName: YOUR_USERNAME}, platformName: IOS}
+14:49:49.694 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.1
+14:49:49.704 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+14:49:49.927 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:49:49.928 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+14:49:50.383 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://21f4c4d13fc7bd0c928a9a204341fdda12dcd342]
+14:49:50.383 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+14:49:52.997 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+14:49:53.596 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:49:56.055 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:49:56.057 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+14:50:00.558 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:50:00.651 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+14:50:04.619 [main] ERROR c.b.utils.GlobalExceptionHandler - Global SDK Exception - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 401. Message: Invalid username or password 
+Host info: host: 'Adarsh*con', ip: 'fe80:0:0:0:856:8121:5897:f860%en0'
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '18.0.2.1'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: bs://21f4c4d13fc7bd0c928a9a..., appium:automationName: XCuiTest, browserVersion: null, bstack:options: {accessKey: YOUR_ACCESS_KEY, browserVersion: null, browserstackSDK: java-javaagent/1.22.1, buildIdentifier: #5, buildName: iOS_Tests, consoleLogs: errors, debug: true, deviceName: iPhone 15, hostName: Adarsh*con, networkLogs: true, platformVersion: 17, projectName: BNY, source: java:appium-intellij:v1.1.2, userName: YOUR_USERNAME}, platformName: IOS}]}]
+Capabilities {appium:app: bs://21f4c4d13fc7bd0c928a9a..., appium:automationName: XCuiTest, browserVersion: null, bstack:options: {accessKey: YOUR_ACCESS_KEY, browserVersion: null, browserstackSDK: java-javaagent/1.22.1, buildIdentifier: #5, buildName: iOS_Tests, consoleLogs: errors, debug: true, deviceName: iPhone 15, hostName: Adarsh*con, networkLogs: true, platformVersion: 17, projectName: BNY, source: java:appium-intellij:v1.1.2, userName: YOUR_USERNAME}, platformName: IOS}
+15:05:14.533 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.1
+15:05:14.540 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+15:05:14.746 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:05:14.747 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+15:05:15.234 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://0f8b98e523d418906ac21c2efee82d52d3f9df21]
+15:05:15.234 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+15:05:19.806 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+15:05:28.036 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:05:30.335 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:05:30.337 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+15:05:35.082 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:05:35.173 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+15:06:10.750 [main] ERROR c.b.utils.GlobalExceptionHandler - Global SDK Exception - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '18.0.2.1'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [7bdfc6328e53ffb75e71a283266566246cd1d411, findElement {value=//XCUIElementTypeTextField[contains(@value,'User ID')], using=xpath}]
+Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.bnymellon.activeinvesto..., appium:bundleId: com.bnymellon.activeinvesto..., appium:databaseEnabled: false, appium:deviceName: iPhone 15, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-euw.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008120-000E5C941182201E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {buildIdentifier: #6, hostName: Adarsh*con}, platformName: IOS}
+Session ID: 7bdfc6328e53ffb75e71a283266566246cd1d411
+15:06:16.503 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/ddf1e45561d00d144ea21baf8cf932e31e6e23e3
+15:06:16.505 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:23:57.736 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.1
+11:23:57.841 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+11:23:58.743 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:23:58.746 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+11:24:00.571 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://07f2b905d6702f61899cd80a6b07388e9e62a408]
+11:24:00.572 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+11:24:04.118 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+11:24:05.077 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:24:10.643 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:24:10.654 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+11:24:14.980 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:24:15.380 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+11:26:41.140 [main] ERROR c.b.utils.GlobalExceptionHandler - Global SDK Exception - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '18.0.2.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [8d0047f97857b8e691bbd9f10e2600a037d875e7, executeScript [args, script]]
+Capabilities {appium:appActivity: io.cloudgrey.the_app.MainAc..., appium:appPackage: io.cloudgrey.the_app, appium:automationName: uiautomator2, appium:bundleID: io.cloudgrey.the_app, appium:bundleId: io.cloudgrey.the_app, appium:chromedriverExecutable: /usr/local/.browserstack/de..., appium:chromedriverPort: 18083, appium:chromedriverPorts: [[18133, 18143]], appium:databaseEnabled: false, appium:desired: {appActivity: io.cloudgrey.the_app.MainAc..., appPackage: io.cloudgrey.the_app, automationName: uiautomator2, bstack:options: {buildIdentifier: #1, disableAnimations: true, hostName: Adarsh-RG9M5920FF}, bundleID: io.cloudgrey.the_app, bundleId: io.cloudgrey.the_app, chromedriverExecutable: /usr/local/.browserstack/de..., chromedriverPort: 18083, chromedriverPorts: [[18133, 18143]], deviceName: Android, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, nativeWebScreenshot: true, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, suppressKillServer: true, systemPort: 8203, udid: R5CT31AHL6W}, appium:deviceApiLevel: 31, appium:deviceManufacturer: samsung, appium:deviceModel: SM-S908E, appium:deviceName: R5CT31AHL6W, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2316, appium:deviceUDID: R5CT31AHL6W, appium:disableSuppressAccessibilityService: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:optimalHubUrl: hub-aps.browserstack.com, appium:pixelRatio: 2.8125, appium:platformVersion: 12, appium:skipServerInstallation: true, appium:statBarHeight: 75, appium:suppressKillServer: true, appium:systemPort: 8203, appium:takesScreenshot: true, appium:udid: R5CT31AHL6W, appium:viewportRect: {height: 2031, left: 0, top: 75, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {buildIdentifier: #1, disableAnimations: true, hostName: Adarsh-RG9M5920FF}, goog:chromeOptions: {}, platformName: ANDROID}
+Session ID: 8d0047f97857b8e691bbd9f10e2600a037d875e7
+11:27:59.731 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.1
+11:27:59.750 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+11:28:00.885 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:28:00.888 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+11:28:02.719 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://07f2b905d6702f61899cd80a6b07388e9e62a408]
+11:28:02.719 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+11:28:04.178 [SIGINT handler] INFO  c.b.utils.ExitSignalHandler - Shutdown triggered by: INT 2
+11:28:04.257 [Thread-0] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+11:28:06.407 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:28:10.740 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:28:10.755 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+11:28:14.985 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:28:15.307 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+11:31:23.502 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.1
+11:31:23.538 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+11:31:24.485 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:31:24.490 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+11:31:49.383 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.1
+11:31:49.417 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+11:31:50.298 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:31:50.300 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+11:31:51.963 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://07f2b905d6702f61899cd80a6b07388e9e62a408]
+11:31:51.964 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+11:31:55.125 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+11:31:56.019 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:32:00.943 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:32:00.951 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+11:32:05.274 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:32:05.553 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+11:34:26.047 [main] ERROR c.b.utils.GlobalExceptionHandler - Global SDK Exception - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '18.0.2.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [173f3f2cadf4504500f7fbc3f4351ef6bc9e0f04, executeScript [script, args]]
+Capabilities {appium:appActivity: io.cloudgrey.the_app.MainAc..., appium:appPackage: io.cloudgrey.the_app, appium:automationName: uiautomator2, appium:bundleID: io.cloudgrey.the_app, appium:bundleId: io.cloudgrey.the_app, appium:chromedriverPorts: [[18133, 18143]], appium:databaseEnabled: false, appium:desired: {appActivity: io.cloudgrey.the_app.MainAc..., appPackage: io.cloudgrey.the_app, automationName: uiautomator2, bstack:options: {buildIdentifier: #2, disableAnimations: true, hostName: Adarsh-RG9M5920FF}, bundleID: io.cloudgrey.the_app, bundleId: io.cloudgrey.the_app, chromedriverPorts: [[18133, 18143]], deviceName: Android, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, nativeWebScreenshot: true, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8203, udid: R5CT3130P8X}, appium:deviceApiLevel: 31, appium:deviceManufacturer: samsung, appium:deviceModel: SM-S908E, appium:deviceName: R5CT3130P8X, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2316, appium:deviceUDID: R5CT3130P8X, appium:disableSuppressAccessibilityService: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:optimalHubUrl: hub-aps.browserstack.com, appium:pixelRatio: 2.8125, appium:platformVersion: 12, appium:skipServerInstallation: true, appium:statBarHeight: 75, appium:systemPort: 8203, appium:takesScreenshot: true, appium:udid: R5CT3130P8X, appium:viewportRect: {height: 2031, left: 0, top: 75, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {buildIdentifier: #2, disableAnimations: true, hostName: Adarsh-RG9M5920FF}, goog:chromeOptions: {}, platformName: ANDROID}
+Session ID: 173f3f2cadf4504500f7fbc3f4351ef6bc9e0f04
+11:40:14.906 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.1
+11:40:15.029 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+11:40:17.271 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:40:17.277 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+11:40:20.243 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://07f2b905d6702f61899cd80a6b07388e9e62a408]
+11:40:20.244 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+11:40:24.321 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+11:40:26.463 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:40:32.150 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:40:32.163 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+11:40:36.521 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:40:36.906 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+11:42:12.958 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.1
+11:42:12.977 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+11:42:13.806 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:42:13.809 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+11:42:15.473 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://07f2b905d6702f61899cd80a6b07388e9e62a408]
+11:42:15.473 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+11:42:18.614 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+11:42:19.502 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:42:24.318 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:42:24.332 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+11:42:28.393 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:42:28.702 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+11:43:54.073 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.1
+11:43:54.197 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+11:43:55.678 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:43:55.693 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+11:43:57.455 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://07f2b905d6702f61899cd80a6b07388e9e62a408]
+11:43:57.455 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+11:44:00.633 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+11:44:01.571 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:44:06.824 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:44:06.832 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+11:44:11.031 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:44:11.357 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+11:45:13.773 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.23.1
+11:45:13.821 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.3.0
+11:45:14.649 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:45:14.654 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+11:45:16.306 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://07f2b905d6702f61899cd80a6b07388e9e62a408]
+11:45:16.307 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+11:45:19.239 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+11:45:20.059 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:45:24.570 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+11:45:24.578 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/adarsh/Documents/CE/javaSamples/bny-appium-java/browserstack.yml
+11:45:28.701 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:45:28.984 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
